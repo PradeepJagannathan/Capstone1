@@ -40,11 +40,19 @@
         }
 
         .about {
-            background: #0c0c0c;
+            background: #302d2d;
             color: white;
             text-align: center;
             padding: 10px 0;
         }
+
+        .contact {
+            background: #0a0a0a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
         .footer {
             background: #343a40;
             color: white;
@@ -88,6 +96,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -186,6 +197,20 @@
             <p>Creates confidence and excitement by inspiring, supporting and personally equipping all athletes to achieve their dreams.</p>
         </div>
     </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="container">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </main>
 
 <!--Footer with the ICONS-->
