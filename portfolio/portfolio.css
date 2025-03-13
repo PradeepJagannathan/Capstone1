@@ -2,7 +2,7 @@
 /* baseline style for the site */
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+  /*  text-align:center; */
     box-sizing: border-box;
     scroll-behavior:smooth;
     
@@ -23,6 +23,7 @@
 h2{
     color:rgb(194, 88, 17);
     margin:0;
+    text-align:center;
 }
 
 p{
@@ -31,6 +32,7 @@ p{
 
 .bio-info{
     color:rgb(15, 15, 15);
+    text-align: center;
 }
 
 /* Header Container */
@@ -60,6 +62,8 @@ p{
 @media (max-width: 800px) {
     .navigator-container{
         flex-flow:column nowrap;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -71,6 +75,8 @@ p{
     background-color: beige;
     min-height: 70vh;
     align-items: center;
+    text-align: center;
+
 
 }
 
@@ -106,6 +112,7 @@ p{
     flex-flow: row nowrap;
 }
 
+/*Change flex flow to column and reduce image size for small viewport*/
 @media (max-width: 800px) {
     .skills{
         flex-flow:column nowrap;
@@ -119,31 +126,38 @@ p{
 .projects-list{
     display:flex;
     flex-flow: row nowrap;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    text-align: center;
 }
 
+/*Change flex flow to column and reduce image size for small viewport*/
 @media (max-width: 800px) {
     .projects-list{
         flex-flow:column nowrap;
+        justify-content:space-around;
     }
 }
 
 .contact-container{
     background-color: rgb(90 97 29 / 53%);
+    text-align:center;
 }
 
 .footer{
     background-image: linear-gradient(to right, rgb(90, 87, 87), rgba(37, 35, 35, 0.829));
     padding:3vh;
+    text-align: center;
 }
-
 
 
 .project-img {
     width: 200px;
     height: 200px;
+    margin-left: auto;
+    margin-right:auto;
     border-radius: 10%;
     border: 5px solid rgb(104, 98, 98);
+
 }
 
 a{
