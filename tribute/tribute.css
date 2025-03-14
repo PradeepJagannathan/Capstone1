@@ -35,6 +35,8 @@ img {
 
 #tribute-info{
 text-align:justify;
+margin-left:20rem;
+margin-right:20rem;
 }
 
 #title {
@@ -50,6 +52,7 @@ text-align:justify;
     }
     #tribute-info{
         text-align:center;
+        margin:1px;
     }
    
 }
